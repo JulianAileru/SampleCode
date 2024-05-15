@@ -54,3 +54,5 @@ ggplot(df) +
 dds = DESeq(dds)
 res = results(dds)
 write.table(res, file="DESeq_Results", quote=FALSE, sep="\t", row.names=TRUE, col.names=TRUE)
+
+
